@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c502137733.js"></script>
+
+    <title>My Team</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 jumbotron mb-3 team-heading">
+                <h1 class="text-center">My Team</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="team-area col-12 d-flex flex-wrap justify-content-center"> 
+                {{ team }}
+            </div>
+        </div> 
+    </div>
+
+    <style>
+        .container-fluid {
+            background-color: rgba(0, 0, 0, 0.70);
+        }
+        .container {
+            margin-bottom: 100px;
+            padding-top: 70px;
+        }
+        body {
+            background-image: url('../images/pexels-anna-4970658.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .jumbotron {
+            background-color: transparent;
+            color: white;
+            text-shadow: 4px 4px black;
+        }
+        .text-center {
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .employee-card {
+            margin: 20px;
+            box-shadow: 5px 5px 10px black;
+        }
+
+        .manager-header {
+            background-color: #F6A2A4;
+        }
+
+        .manager-body {
+            background-color: #FDECED;
+        }
+
+        .engineer-header {
+            background-color: #B8D1E0;
+        }
+
+        .engineer-body {
+            background-color: #F1F6F9;
+        }
+
+        .intern-header {
+            background-color: #F2DCA6;
+        }
+
+        .intern-body {
+            background-color: #FCF8ED;
+        }
+    </style>
+
+</body>
+
+</html>
