@@ -4,7 +4,7 @@
 
 Check out the demo [here](https://www.youtube.com/watch?v=mgobiGCxkQ4&feature=youtu.be&ab_channel=UyenNguyen).
 
-<br>This is a command line application that prompts the user for information about the engineering team members. The user can input any number of team members, including a manager, engineers, and interns. After the user has finished entering all of the information with Node CLI, the application will create an HTML file that displays a nicely formatted list of all the members. The information displayed in no particular order includes: 
+This is a command line application that prompts the user for information about the engineering team members. The user can input any number of team members, including a manager, engineers, and interns. After the user has finished entering all of the information with Node CLI, the application will create an HTML file that displays a nicely formatted list of all the members. The information displayed in no particular order includes: 
 
   * Name
 
