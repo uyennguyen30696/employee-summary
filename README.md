@@ -23,6 +23,14 @@ so that I have quick access to emails and GitHub profiles
 
 ```
 
+## Screenshots
+
+* Using CLI to prompt user for information
+![Prompts](./Develop/images/prompts.png)
+
+* Output HTML page
+![Output](./Develop.images/output.png)
+
 ## Installation
 
 Install Node js and npm before running.
