@@ -29,7 +29,7 @@ so that I have quick access to emails and GitHub profiles
 ![Prompts](./Develop/images/prompts.png)
 
 * Output HTML page
-![Output](./Develop.images/output.png)
+![Output](./Develop/images/output.png)
 
 ## Installation
 
